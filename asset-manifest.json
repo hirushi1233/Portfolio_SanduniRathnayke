@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio_SanduniRathnayke/static/css/main.e6c13ad2.css",
+    "main.js": "/Portfolio_SanduniRathnayke/static/js/main.fdb9215f.js",
+    "static/js/453.656823d2.chunk.js": "/Portfolio_SanduniRathnayke/static/js/453.656823d2.chunk.js",
+    "index.html": "/Portfolio_SanduniRathnayke/index.html",
+    "main.e6c13ad2.css.map": "/Portfolio_SanduniRathnayke/static/css/main.e6c13ad2.css.map",
+    "main.fdb9215f.js.map": "/Portfolio_SanduniRathnayke/static/js/main.fdb9215f.js.map",
+    "453.656823d2.chunk.js.map": "/Portfolio_SanduniRathnayke/static/js/453.656823d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.fdb9215f.js"
+  ]
+}
