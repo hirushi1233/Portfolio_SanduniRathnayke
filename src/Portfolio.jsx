@@ -32,7 +32,8 @@ export default function Portfolio() {
       title: "Social Media App",
       description: "Real-time social platform with live messaging and notifications",
       tech: ["React Native", "Firebase", "Redux"],
-      color: "from-green-500 to-teal-500"
+      color: "from-green-500 to-teal-500",
+      image: `${process.env.PUBLIC_URL}/images/pro3.jpg`
     },
     {
   
