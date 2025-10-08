@@ -18,7 +18,7 @@ export default function Portfolio() {
       description: "Full-stack e-commerce solution with real-time inventory management",
       tech: ["JAVA", "Android studio", "IOT","Bluetooth communication"],
       color: "from-purple-500 to-pink-500",
-      image: "/images/profile1.jpg"
+      image: `${process.env.PUBLIC_URL}/images/profile.jpg`
     },
     {
      
@@ -26,7 +26,7 @@ export default function Portfolio() {
       description: "AI-powered hotel management chatbot built with Flask backend and dynamic frontend. Provides multilingual FAQ responses, real-time chat functionality, and seamless guest service experience with intuitive UI.",
       tech: ["Python", "Flask", "JavaScript"],
       color: "from-blue-500 to-cyan-500",
-      image: "/images/project3.png"
+      image: `${process.env.PUBLIC_URL}/images/profile2.jpg`
     },
     {
       title: "Social Media App",
@@ -40,7 +40,7 @@ export default function Portfolio() {
       description: "Modern single-page portfolio built with React featuring animated backgrounds, sticky navigation, project cards with hover effects, and a fully functional contact section with sleek UI/UX design.",
       tech: ["React", "Tailwind CSS", "JavaScript"],
       color: "from-purple-500 to-pink-500",
-      image: "/images/project2.png"
+      image: `${process.env.PUBLIC_URL}/images/profile3.jpg`
     }
   ];
 
@@ -153,10 +153,10 @@ const skills = [
   <div className="relative group">
     <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
     <div className="relative bg-gray-800/50 backdrop-blur-sm p-8 rounded-2xl border border-gray-700">
-      <img 
-        src="/images/profile.jpg" 
-        alt="Your Name" 
-        className="w-80 h-80 mx-auto object-cover rounded-full mb-6 border-4 border-purple-500 shadow-lg"
+        <img 
+        src={`${process.env.PUBLIC_URL}/images/pro2.jpeg`}
+        alt="Profile"
+        className="w-80 h-80 mx-auto object-top object-cover rounded-full mb-6 border-4 border-purple-500 shadow-lg"
       />
       <div className="flex justify-center gap-4">
         <a href="https://github.com/hirushi1233" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-700 rounded-full hover:bg-purple-500 transition-colors">
@@ -172,6 +172,7 @@ const skills = [
     </div>
   </div>
 <div>
+  
                   <p className="text-gray-300 text-lg mb-6 leading-relaxed">
                 I'm a motivated undergraduate pursuing BSc (Hons) in Networking and Mobile Computing at Horizon Campus. My passion lies in DevOps, cloud infrastructure, and building reliable, scalable systems through automation and modern engineering practices.
               </p>
